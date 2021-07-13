@@ -7,7 +7,7 @@ public class animal {
 	animal(String kind, String name, String toy , int age){
 		this(kind, name, age);
 		System.out.println(name +"은(는)" + this.toy + "를 좋아합니다.");
-		
+		System.out.println(" ");
 	}
 	
 	animal( String kind, String name, int age){
